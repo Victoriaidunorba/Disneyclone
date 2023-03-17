@@ -20,7 +20,10 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
+  }
+  .contains{
+    background-image: url('../public/images/home-background.png');
   }
 }

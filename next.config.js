@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-}
+  compiler: {
+    styledComponents: true,
+  },
+  images: {
+    domains: ["prod-ripcut-delivery.disney-plus.net"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
